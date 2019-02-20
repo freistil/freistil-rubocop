@@ -1,17 +1,13 @@
+require: rubocop-rspec
+
 AllCops:
-  TargetRubyVersion: 2.2
+  TargetRubyVersion: 2.4
   Include:
-    - '**/config.ru'
+    - Rakefile
+    - lib/**/*.rake
   Exclude:
-    - Gemfile
-    - Guardfile
-    - '**/Rakefile'
-    - 'bin/**/*'
-    - 'db/**/*'
-    - 'config/**/*'
     - 'vendor/**/*'
-    - '.chef/*'
-    - 'lib/tasks/*.rake'
+    - '*.gemspec'
 
 Metrics/BlockLength:
   Description: 'Avoid blocks longer than 25 lines of code.'
