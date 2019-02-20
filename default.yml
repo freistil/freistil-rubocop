@@ -104,7 +104,7 @@ Metrics/ParameterLists:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#too-many-params'
   Enabled: false
 
-Style/PredicateName:
+Naming/PredicateName:
   Description: 'Check the names of predicate methods.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#bool-methods-qmark'
   NamePrefixBlacklist:
@@ -130,7 +130,14 @@ Style/TrailingCommaInArguments:
   # for all parenthesized method calls with arguments.
   EnforcedStyleForMultiline: comma
 
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
+  # If `comma`, the cop requires a comma after the last item in an array or
+  # hash, but only when each item is on its own line.
+  # If `consistent_comma`, the cop requires a comma after the last item of all
+  # non-empty array and hash literals.
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
   # If `comma`, the cop requires a comma after the last item in an array or
   # hash, but only when each item is on its own line.
   # If `consistent_comma`, the cop requires a comma after the last item of all
