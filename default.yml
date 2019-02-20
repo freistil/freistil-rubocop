@@ -3,8 +3,9 @@ require: rubocop-rspec
 AllCops:
   TargetRubyVersion: 2.4
   Include:
+    - '**/*.rb'
     - Rakefile
-    - lib/**/*.rake
+    - 'lib/**/*.rake'
   Exclude:
     - 'vendor/**/*'
     - '*.gemspec'

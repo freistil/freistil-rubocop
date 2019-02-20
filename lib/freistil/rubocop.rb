@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "freistil/rubocop/version"
 
 module Freistil
