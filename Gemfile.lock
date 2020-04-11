@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    freistil-rubocop (0.2.0)
+    freistil-rubocop (0.4.0)
       rubocop (~> 0.80)
       rubocop-rspec (~> 1.29, >= 1.29.1)
 
@@ -24,8 +24,8 @@ GEM
       rexml
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
-    rubocop-rspec (1.35.0)
-      rubocop (>= 0.60.0)
+    rubocop-rspec (1.38.1)
+      rubocop (>= 0.68.1)
     ruby-progressbar (1.10.1)
     unicode-display_width (1.7.0)
 

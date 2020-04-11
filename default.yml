@@ -80,7 +80,10 @@ Style/Encoding:
 
 Style/FrozenStringLiteralComment:
   Exclude:
+    - '*.gemspec'
     - 'Gemfile'
+    - 'Guardfile'
+    - 'Rakefile'
 
 Style/GlobalVars:
   Description: 'Do not introduce global variables.'
