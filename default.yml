@@ -34,6 +34,12 @@ Lint/AssignmentInCondition:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#safe-assignment-in-condition'
   Enabled: false
 
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
 Metrics/BlockLength:
   Description: 'Avoid blocks longer than 25 lines of code.'
   Exclude:
