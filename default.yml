@@ -30,6 +30,10 @@ Layout/MultilineOperationIndentation:
   Enabled: true
   EnforcedStyle: indented
 
+Layout/SpaceInsideHashLiteralBraces:
+  Enabled: true
+  EnforcedStyle: no_space
+
 Lint/AssignmentInCondition:
   Description: "Don't use assignment in conditions."
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#safe-assignment-in-condition'
@@ -140,6 +144,12 @@ Naming/PredicateName:
   - is_
   Exclude:
   - spec/**/*
+
+RSpec/DescribeClass:
+  Exclude:
+    - "spec/features/**/*.rb"
+    - "spec/views/**/*.rb"
+    - "spec/requests/**/*.rb"
 
 RSpec/ExampleLength:
   Exclude:
