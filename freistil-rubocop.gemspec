@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/freistil/freistil-rubocop"
 
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "https://rubygems.org"
+    spec.metadata["allowed_push_host"] = "https://rubygems.pkg.github.com"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
