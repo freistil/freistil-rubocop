@@ -1,7 +1,9 @@
-require: rubocop-rspec
+plugins: rubocop-rspec
 
 AllCops:
   TargetRubyVersion: 3.0
+  NewCops: enable
+  SuggestExtensions: false
   Include:
     - '**/*.rb'
     - 'lib/**/*.rake'
